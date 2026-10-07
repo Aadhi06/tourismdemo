@@ -66,7 +66,7 @@ export function Footer({ settings, tours, channels }) {
         </div>
       </Container>
       <Container className="flex flex-col gap-3 border-t border-white/15 pt-6 pb-24 text-sm text-ivory/70 sm:flex-row sm:items-center sm:justify-between lg:pr-24 lg:pb-6">
-        <p>{settings.previewLabel}. Traveller stories, the guide profile, and itineraries are sample material.</p>
+        <p>Private journeys through Sri Lanka, planned with a local guide.</p>
         <p>© {new Date().getFullYear()} {settings.brand}</p>
       </Container>
     </footer>

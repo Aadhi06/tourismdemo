@@ -13,7 +13,7 @@ export const tours = [
     summary:
       "A week from the palace rock at Sigiriya to the lake city of Kandy, with room to listen as well as look.",
     overview: [
-      "This sample journey links the Cultural Triangle with Kandy for travellers who want the island’s classical places explained in order. It is written as a private week, not a coach circuit.",
+      "This journey links the Cultural Triangle with Kandy for travellers who want the island’s classical places explained in order. It is a private week, not a coach circuit.",
       "The shape moves from Sigiriya and Dambulla toward Kandy, leaving the last days adjustable. Nothing here assumes flights, a particular hotel, or a vehicle already booked.",
     ],
     heroImage: "sigiriyaGardens",
@@ -92,7 +92,7 @@ export const tours = [
         id: "hotels",
         question: "Are places to stay included?",
         answer:
-          "Not in this sample. Accommodation can be suggested when a real enquiry is planned. This preview does not reserve rooms.",
+          "Accommodation is suggested once we know your dates and the kind of stay you prefer. Rooms are confirmed with you, not held from this page.",
       },
       {
         id: "children",
@@ -163,7 +163,7 @@ export const tours = [
         id: "base",
         question: "Do we need to stay in Kandy?",
         answer:
-          "It helps. The sample day assumes you can reach the city without turning the visit into a long drive. Tell us where you are based and the timing can be judged properly.",
+          "It helps. The day assumes you can reach the city without turning the visit into a long drive. Tell us where you are based and the timing can be judged properly.",
       },
       {
         id: "dress",
@@ -240,7 +240,7 @@ export const tours = [
         id: "heat",
         question: "What about the heat?",
         answer:
-          "The sample puts the climb earlier. Hats, water, and a willingness to stop are part of the plan. This page does not give a seasonal forecast.",
+          "The climb is planned earlier in the day. Hats, water, and a willingness to stop are part of the plan. We talk through the season when we know your dates.",
       },
     ],
     featured: false,
@@ -259,7 +259,7 @@ export const tours = [
     summary:
       "Tea slopes, cloud, and the Nine Arches Bridge, arranged so the hills set the pace.",
     overview: [
-      "Four days in the southern hills, based around Ella. The sample includes tea country, the railway bridge, and a waterfall landscape near Talawakelle, with one day left deliberately light.",
+      "Four days in the southern hills, based around Ella. The journey includes tea country, the railway bridge, and a waterfall landscape near Talawakelle, with one day left deliberately light.",
       "It is a private journey for people who would rather walk and watch the weather than collect viewpoints.",
     ],
     heroImage: "ellaTea",
@@ -288,7 +288,7 @@ export const tours = [
         label: "Day 3",
         title: "The bridge",
         detail:
-          "Time at the Nine Arches Bridge. A train ride can be discussed if it suits the day; it is not booked by this preview.",
+          "Time at the Nine Arches Bridge. A train ride can be added if it suits the day, and seats are arranged once your dates are clear.",
       },
       {
         label: "Day 4",
@@ -313,7 +313,7 @@ export const tours = [
         id: "train",
         question: "Is the train included?",
         answer:
-          "No. The bridge and the railway are part of the story. Riding is optional and depends on seats and timing, which this demo cannot hold.",
+          "No. The bridge and the railway are part of the story. Riding is optional and depends on seats and timing, which we arrange with you.",
       },
       {
         id: "rain",
@@ -339,7 +339,7 @@ export const tours = [
       "A patient look at Yala’s dry-zone wildlife, with leopards treated as a hope, not a booking.",
     overview: [
       "Two days built around one proper game drive in Yala National Park, plus time to rest and to talk about what you saw. Elephants, birds, and deer are as much the point as the chance of a leopard.",
-      "The sample is explicit about limits: animals are wild, access rules apply, and nothing in this preview reserves a jeep or a park slot.",
+      "Animals are wild, and park rules apply. A jeep and an entry slot are arranged with you once the morning is agreed. Sightings are never promised.",
     ],
     heroImage: "yalaElephants",
     gallery: ["yalaLeopard", "yalaElephants"],
@@ -404,7 +404,7 @@ export const tours = [
     summary:
       "A walking day in Colombo for arrivals, departures, or anyone who wants the capital at street level.",
     overview: [
-      "Colombo is usually a gateway. This sample day treats it as a city with a seafront, neighbourhoods, and a history of trade, rather than a stop to be endured between flights.",
+      "Colombo is usually a gateway. This day treats it as a city with a seafront, neighbourhoods, and a history of trade, rather than a stop to be endured between flights.",
       "The route is on foot as far as heat and distance allow. It does not attempt the whole city.",
     ],
     heroImage: "colomboFace",
@@ -470,7 +470,7 @@ export const tours = [
       "The fort, the lanes, and a stretch of southern coast, kept personal rather than beach-led.",
     overview: [
       "Three days on the south coast centred on Galle Fort, with time for Koggala’s stilt fishermen and a bay such as Unawatuna or Mirissa. The sea is present. It is not the whole itinerary.",
-      "The sample suits couples and families who want architecture and everyday fort life, plus one unhurried coastal hour.",
+      "It suits couples and families who want architecture and everyday fort life, plus one unhurried coastal hour.",
     ],
     heroImage: "mirissa",
     gallery: ["galleFort", "galleStilts", "galleStreet", "unawatuna", "mirissa"],
@@ -522,7 +522,7 @@ export const tours = [
         id: "stilts",
         question: "Are the stilt fishermen a performance?",
         answer:
-          "The sample treats them as a local fishing tradition at Koggala. We do not stage it, and we do not ask you to treat people as scenery.",
+          "They are a local fishing tradition at Koggala. We do not stage it, and we do not ask you to treat people as scenery.",
       },
     ],
     featured: true,

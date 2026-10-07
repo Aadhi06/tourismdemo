@@ -7,7 +7,7 @@ import { getEnquiryContext, getGuide, getSiteSettings } from "@/lib/data";
 
 export const metadata = {
   title: "Contact",
-  description: "Send a preview enquiry to plan a private journey in Sri Lanka. No message is sent from this demo.",
+  description: "Plan a private journey in Sri Lanka with Kasun Perera. Share your dates, your pace, and what you hope to see.",
 };
 
 export default async function ContactPage({ searchParams }) {
@@ -28,7 +28,7 @@ export default async function ContactPage({ searchParams }) {
           Tell us how you like to travel.
         </h1>
         <p className="mt-5 text-lg leading-relaxed text-muted">
-          Write a few details for {guide.name}. On this preview the form stays in the browser: nothing is emailed, stored, or booked.
+          Write a few details for {guide.name}. He replies with questions, ideas, and a route shaped around the people travelling.
         </p>
       </div>
 
@@ -49,7 +49,7 @@ export default async function ContactPage({ searchParams }) {
           <div className="relative aspect-[4/5] overflow-hidden rounded-xl bg-sand">
             <SiteImage
               image={guide.contextualImage}
-              alt="Sigiriya from the gardens, used as a place photograph beside the enquiry"
+              alt="Sigiriya from the gardens"
               sizes="(min-width: 1024px) 35vw, 100vw"
             />
           </div>

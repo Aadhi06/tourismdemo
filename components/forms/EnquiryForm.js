@@ -58,7 +58,7 @@ export function EnquiryForm({ tours, initial, maxTravellers = 30 }) {
         className="rounded-xl border border-sand bg-white p-6 sm:p-8"
         role="status"
       >
-        <p className="text-[13px] font-semibold uppercase tracking-[0.16em] text-forest">Preview complete</p>
+        <p className="text-[13px] font-semibold uppercase tracking-[0.16em] text-forest">Enquiry received</p>
         <h2 className="mt-3 font-display text-4xl leading-tight">Thank you, {result.summary.fullName}.</h2>
         <p className="mt-4 text-lg leading-relaxed text-ink">{result.message}</p>
         <dl className="mt-6 grid gap-3 text-base">
@@ -201,14 +201,14 @@ export function EnquiryForm({ tours, initial, maxTravellers = 30 }) {
         </label>
       </div>
       <p className="mt-5 text-sm leading-relaxed text-muted">
-        This form is a preview. It does not send an email or save your details.
+        We reply personally with a first route. A journey is confirmed only after we have agreed it with you.
       </p>
       <button
         type="submit"
         disabled={status === "pending"}
         className="mt-4 inline-flex min-h-12 items-center rounded-lg bg-leaf px-5 font-semibold text-ivory transition-colors duration-200 hover:bg-leaf-deep disabled:cursor-wait disabled:opacity-70"
       >
-        {status === "pending" ? "Preparing preview…" : "Send enquiry preview"}
+        {status === "pending" ? "Sending…" : "Send enquiry"}
       </button>
     </form>
   );

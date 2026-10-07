@@ -7,7 +7,7 @@ import { getDurationFilters, getSortOptions, getTourCategories, getTours } from 
 export const metadata = {
   title: "Tours",
   description:
-    "Private sample journeys through Sri Lanka: culture, hill country, wildlife, the south coast, and Colombo.",
+    "Private journeys through Sri Lanka: culture, hill country, wildlife, the south coast, and Colombo.",
 };
 
 export default async function ToursPage({ searchParams }) {
@@ -30,7 +30,7 @@ export default async function ToursPage({ searchParams }) {
           </h1>
         </div>
         <p className="text-lg leading-relaxed text-muted lg:col-span-5">
-          Seven sample routes, from a single day in Kandy to a week of temples and cities. Filter by the kind of travel and the number of days, then open a journey to see how it might unfold.
+          Seven private routes, from a single day in Kandy to a week of temples and cities. Filter by the kind of travel and the number of days, then open a journey to see how it unfolds.
         </p>
       </div>
 

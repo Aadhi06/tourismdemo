@@ -10,7 +10,7 @@ export default function Error({ reset }) {
         This page did not finish loading.
       </h1>
       <p className="mt-5 max-w-lg text-lg leading-relaxed text-muted">
-        The preview hit an unexpected problem. You can try the page again, or go back to the homepage.
+        Something unexpected interrupted this page. You can try it again, or go back to the homepage.
       </p>
       <div className="mt-8 flex flex-wrap gap-3">
         <button

@@ -1,9 +1,8 @@
 export const siteSettings = {
   brand: "Ceylon Journeys",
   positioning: "Private journeys. Local perspectives.",
-  previewLabel: "Concept preview · sample content",
   indicativeNotice:
-    "Suggested for this preview. Itineraries, inclusions, and timings are sample ideas, not a confirmed offer.",
+    "A starting point for your journey. Days, pacing, and inclusions are confirmed with you before you travel.",
   priceLabel: "Price on enquiry",
   formatLabel: "Private tour",
   baseLabel: "Private guiding across Sri Lanka",
@@ -60,19 +59,19 @@ export const homeFaqs = [
     id: "custom",
     question: "Can the itinerary be shaped around our interests?",
     answer:
-      "Yes. These sample routes are starting points. Tell us what you care about — temples, tea country, wildlife, the coast, food, or time with family — and the plan is adjusted before you travel.",
+      "Yes. These routes are starting points. Tell us what you care about — temples, tea country, wildlife, the coast, food, or time with family — and the plan is adjusted before you travel.",
   },
   {
     id: "group",
     question: "What size of group do you guide?",
     answer:
-      "Journeys are arranged for couples, families, and small private groups. There is no shared coach on these sample tours. If you are travelling as a larger party, say so in your enquiry and we can talk about what would work.",
+      "Journeys are arranged for couples, families, and small private groups. There is no shared coach. If you are travelling as a larger party, say so in your enquiry and we can talk about what would work.",
   },
   {
     id: "planning",
     question: "How far ahead should we enquire?",
     answer:
-      "Write whenever you are ready to start a conversation. Earlier notes help with pacing and park or temple timing, but this preview cannot promise availability. A reply in the finished service would confirm what is possible.",
+      "Write whenever you are ready to start a conversation. Earlier notes help with pacing and with park or temple timing. We confirm what is possible when we reply.",
   },
   {
     id: "responsible",
@@ -84,6 +83,6 @@ export const homeFaqs = [
     id: "after",
     question: "What happens after we send an enquiry?",
     answer:
-      "On this preview, nothing is sent or stored. In the finished website, your note would open a personal reply with ideas, questions, and a suggested shape for the journey — not an instant booking.",
+      "You receive a personal reply with ideas, questions, and a suggested shape for the journey. Nothing is booked until we confirm the plan with you.",
   },
 ];

@@ -32,7 +32,7 @@ body.has-enquiry-bar {
 
 #content,
 #enquiry {
-  scroll-margin-top: 7.5rem;
+  scroll-margin-top: 5.5rem;
 }
 
 @media (min-width: 1024px) {

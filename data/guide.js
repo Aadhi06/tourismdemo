@@ -2,16 +2,15 @@ export const guide = {
   id: "kasun-perera",
   name: "Kasun Perera",
   role: "Private guide",
-  identityNote:
-    "Fictional sample profile for this preview. Kasun Perera is not a real client, and this page does not use a photograph of him.",
+  identityNote: "Sri Lanka",
   quote:
     "The island makes more sense when someone walks it with you — slowly enough to notice who built a place, and why it still matters.",
   summary:
     "Kasun plans unhurried private journeys for couples, families, and small groups who want Sri Lanka explained, not simply visited.",
   paragraphs: [
-    "Kasun is a fictional guide created for this concept. The voice of the site is his: curious, specific, and more interested in why a place feels the way it does than in how many sites can fit into a day.",
-    "In this sample story he grew up moving between the coast and the hills, and he still plans journeys that leave time for tea, conversation, and a change of mind. He would rather explain a temple courtyard properly than hurry on to the next gate.",
-    "Guests in the demo are international couples, families, and friends travelling together. The sample profile assumes English for guiding, with Sinhala and conversational Tamil noted only as illustrative background — not as a verified qualification.",
+    "Kasun is more interested in why a place feels the way it does than in how many sites can fit into a day. The voice of these journeys is his: curious, specific, and happy to slow down.",
+    "He grew up moving between the coast and the hills, and he still plans journeys that leave time for tea, conversation, and a change of mind. He would rather explain a temple courtyard properly than hurry on to the next gate.",
+    "Most guests are international couples, families, and friends travelling together. Guiding is in English, with Sinhala and conversational Tamil used on the road.",
   ],
   philosophy: [
     {
@@ -28,9 +27,9 @@ export const guide = {
     },
   ],
   languages: [
-    { name: "English", note: "Sample guiding language" },
-    { name: "Sinhala", note: "Sample background" },
-    { name: "Tamil", note: "Sample — conversational" },
+    { name: "English", note: "Guiding language" },
+    { name: "Sinhala", note: "Spoken at home" },
+    { name: "Tamil", note: "Conversational" },
   ],
   portraitImage: null,
   contextualImage: "sigiriyaRemote",

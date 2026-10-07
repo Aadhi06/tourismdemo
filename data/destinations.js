@@ -15,7 +15,7 @@ export const destinations = [
     practicalNotes: [
       "The climb is uneven and exposed. We plan it around the group’s energy and the heat of the day, and it can be shortened.",
       "Modest dress is expected at the cave temple. Shoulders and knees covered is a useful guide.",
-      "Visiting hours and ticket rules change. They are confirmed when a journey is actually planned, not in this preview.",
+      "Visiting hours and ticket rules change. They are confirmed when your journey is planned.",
     ],
     heroImage: "sigiriyaHero",
     gallery: ["sigiriyaGardens", "sigiriyaRemote", "sigiriyaFortress", "dambullaCave"],
@@ -36,7 +36,7 @@ export const destinations = [
     practicalNotes: [
       "The temple is a place of worship. Photography rules and clothing expectations should be followed on the day.",
       "Kandy can be humid. A day tour keeps one clear focus instead of stacking several shrines.",
-      "This preview does not quote ceremony times. Those are checked when an itinerary is agreed.",
+      "Ceremony times are checked when the itinerary is agreed, so the visit is not built on a guess.",
     ],
     heroImage: "kandyTemple",
     gallery: ["kandyInterior", "kandyLake", "kandyTemple"],
@@ -48,7 +48,7 @@ export const destinations = [
     region: "Hill country",
     summary: "Tea slopes, cloud, and the long curve of the Nine Arches Bridge.",
     introduction:
-      "Ella is the easy name for a wider hill-country journey: tea estates, a famous railway bridge, and valleys that disappear by the afternoon. The pleasure is in the climate and the walks, so the sample route refuses to fill every hour.",
+      "Ella is the easy name for a wider hill-country journey: tea estates, a famous railway bridge, and valleys that disappear by the afternoon. The pleasure is in the climate and the walks, so the route leaves hours unfilled.",
     experiences: [
       "Walk a tea slope with time to see how the bushes are picked and how the landscape is worked.",
       "See the Nine Arches Bridge from a viewpoint, and ride a stretch of the hill railway if the group wants it.",
@@ -56,7 +56,7 @@ export const destinations = [
     ],
     practicalNotes: [
       "Paths can be steep and slippery after rain. Walks are chosen for the people actually travelling.",
-      "Train seats are not assumed in this preview. Rail plans are discussed, not promised.",
+      "Train seats are arranged for your dates. A rail plan is discussed, then confirmed, rather than assumed.",
       "Evenings are cooler than the coast. A layered jacket is more useful than a packed schedule.",
     ],
     heroImage: "ellaBridge",
@@ -69,7 +69,7 @@ export const destinations = [
     region: "South-east dry zone",
     summary: "Open scrub, waterholes, and wildlife watched without a guarantee.",
     introduction:
-      "Yala National Park is Sri Lanka’s best-known place to look for leopards, elephants, and birds. This sample treats it as a patient morning in the dry zone, not a promise of a particular animal. The value is the time spent looking.",
+      "Yala National Park is Sri Lanka’s best-known place to look for leopards, elephants, and birds. We treat it as a patient morning in the dry zone, not a promise of a particular animal. The value is the time spent looking.",
     experiences: [
       "Enter the park for a guided game drive, staying with the vehicle and the ranger’s direction.",
       "Pause at waterholes, where elephants and birds often gather.",
@@ -78,7 +78,7 @@ export const destinations = [
     practicalNotes: [
       "Sightings are never guaranteed, including leopards.",
       "Park access, vehicles, and fees are arranged when a real itinerary is confirmed. They are not included as a fixed offer here.",
-      "Early starts are kinder to animals and to visitors. The sample plan says so plainly.",
+      "Early starts are kinder to animals and to visitors, so the morning is planned that way.",
     ],
     heroImage: "yalaElephants",
     gallery: ["yalaLeopard", "yalaElephants"],
@@ -99,7 +99,7 @@ export const destinations = [
     practicalNotes: [
       "The fort is a neighbourhood as well as a monument. The walk respects people who live there.",
       "Sea conditions change. Swimming is optional and never treated as the point of the journey.",
-      "This preview does not claim a best month for the south coast. Timing is discussed around your own dates.",
+      "The south coast changes with the monsoon. Timing is discussed around your own dates.",
     ],
     heroImage: "galleStilts",
     gallery: ["galleFort", "galleStreet", "mirissa", "unawatuna"],

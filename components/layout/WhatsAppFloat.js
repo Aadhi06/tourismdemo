@@ -14,8 +14,8 @@ function Mark() {
 export function WhatsAppFloat({ href, available }) {
   const label = available
     ? "Message Ceylon Journeys on WhatsApp"
-    : "WhatsApp preview. Open the enquiry form";
-  const hint = available ? "WhatsApp" : "Send an enquiry";
+    : "Send an enquiry";
+  const hint = available ? "WhatsApp" : "Enquire";
   const content = (
     <>
       <span className="whatsapp-float__hint" aria-hidden="true">

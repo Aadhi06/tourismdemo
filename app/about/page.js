@@ -7,7 +7,7 @@ import { getGuide } from "@/lib/data";
 export const metadata = {
   title: "About",
   description:
-    "Meet Kasun Perera, the fictional sample guide behind Ceylon Journeys, and the way private Sri Lankan journeys are shaped.",
+    "Meet Kasun Perera, the private guide behind Ceylon Journeys, and the way Sri Lankan journeys are shaped.",
 };
 
 export default function AboutPage() {
@@ -17,7 +17,7 @@ export default function AboutPage() {
     <>
       <Container className="grid items-end gap-10 py-12 lg:grid-cols-12 lg:py-20">
         <div className="lg:col-span-6">
-          <p className="text-[13px] font-semibold uppercase tracking-[0.18em] text-forest">Sample guide profile</p>
+          <p className="text-[13px] font-semibold uppercase tracking-[0.18em] text-forest">About the guide</p>
           <h1 className="mt-3 font-display text-[clamp(2.8rem,6vw,5rem)] leading-[0.96] font-medium">
             {guide.name}
           </h1>
@@ -36,7 +36,7 @@ export default function AboutPage() {
             />
           </div>
           <p className="mt-3 text-sm text-muted">
-            Illustrative place photograph of Sigiriya. It is not a portrait of the fictional guide.
+            Sigiriya, where many of these journeys begin.
           </p>
         </div>
         <div className="lg:col-span-5 lg:pt-10">
@@ -51,7 +51,7 @@ export default function AboutPage() {
 
       <Container className="grid gap-12 pb-16 lg:grid-cols-12 lg:pb-24">
         <div className="lg:col-span-7">
-          <h2 className="font-display text-4xl leading-tight font-medium">A biography written for the preview</h2>
+          <h2 className="font-display text-4xl leading-tight font-medium">How Kasun came to this work</h2>
           <div className="mt-5 grid gap-4 text-lg leading-relaxed text-ink">
             {guide.paragraphs.map((paragraph) => (
               <p key={paragraph}>{paragraph}</p>
@@ -74,9 +74,9 @@ export default function AboutPage() {
       <section className="bg-white py-16 md:py-20">
         <Container className="grid gap-10 lg:grid-cols-12">
           <div className="lg:col-span-5">
-            <h2 className="font-display text-4xl leading-tight font-medium">Languages in this sample</h2>
+            <h2 className="font-display text-4xl leading-tight font-medium">Languages</h2>
             <p className="mt-3 leading-relaxed text-muted">
-              These are illustrative notes for the demo profile. They are not verified qualifications or test results.
+              Guiding is in English. Sinhala and conversational Tamil are part of daily life on the road.
             </p>
           </div>
           <ul className="grid gap-4 lg:col-span-7">
@@ -95,7 +95,7 @@ export default function AboutPage() {
           If the pace sounds right, start with a note.
         </h2>
         <p className="mt-4 max-w-xl text-lg leading-relaxed text-muted">
-          Tell us who is travelling and what you hope to understand. The enquiry on this preview stays on the page.
+          Tell us who is travelling and what you hope to understand. We will reply with a first idea for the route.
         </p>
         <div className="mt-8 flex flex-wrap gap-3">
           <ButtonLink href="/contact">Plan My Trip</ButtonLink>

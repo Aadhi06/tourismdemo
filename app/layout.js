@@ -58,7 +58,7 @@ export default function RootLayout({ children }) {
         <a className="skip-link" href="#content">
           Skip to content
         </a>
-        <Header brand={settings.brand} previewLabel={settings.previewLabel} links={getNavigation()} />
+        <Header brand={settings.brand} links={getNavigation()} />
         <MainOffset>{children}</MainOffset>
         <Footer settings={settings} tours={tours} channels={channels} />
         <WhatsAppFloat href={whatsapp.href} available={whatsapp.available} />

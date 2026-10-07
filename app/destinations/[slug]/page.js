@@ -104,7 +104,7 @@ export default async function DestinationPage({ params }) {
             </ul>
           ) : (
             <p className="mt-4 max-w-xl text-muted">
-              No sample tour is linked to this place yet. You can still enquire and describe the time you would like here.
+              Tell us how you would like to spend your time here and we will shape a day around it.
             </p>
           )}
         </Container>

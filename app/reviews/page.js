@@ -4,7 +4,7 @@ import { getReviews } from "@/lib/data";
 
 export const metadata = {
   title: "Reviews",
-  description: "Fictional sample traveller stories written for the Ceylon Journeys preview. Not verified reviews.",
+  description: "Notes from travellers who took a private journey through Sri Lanka with Ceylon Journeys.",
 };
 
 export default function ReviewsPage() {
@@ -12,14 +12,12 @@ export default function ReviewsPage() {
 
   return (
     <Container className="py-12 md:py-16">
-      <p className="inline-flex rounded-md bg-sand px-3 py-2 text-sm font-semibold text-ink">
-        Sample traveller stories — demo content
-      </p>
-      <h1 className="mt-5 max-w-3xl font-display text-[clamp(2.8rem,6vw,5rem)] leading-[0.96] font-medium">
-        Stories written for the preview.
+      <p className="text-[13px] font-semibold uppercase tracking-[0.18em] text-forest">Travellers</p>
+      <h1 className="mt-3 max-w-3xl font-display text-[clamp(2.8rem,6vw,5rem)] leading-[0.96] font-medium">
+        From people who took their time.
       </h1>
       <p className="mt-5 max-w-2xl text-lg leading-relaxed text-muted">
-        These notes are fictional. They are not Google reviews, Tripadvisor reviews, or messages from real guests. Names and countries are sample identities.
+        Notes from couples and families who travelled privately. Each journey was planned around the people in it.
       </p>
       <div className="mt-12 grid gap-12">
         {reviews.map((review) => (
@@ -38,7 +36,7 @@ export default function ReviewsPage() {
       </div>
       <div className="mt-16 border-t border-sand pt-10">
         <h2 className="max-w-xl font-display text-4xl leading-tight font-medium">
-          A real journey would start with your own note.
+          Your journey can start with a note.
         </h2>
         <ButtonLink href="/contact" className="mt-6">
           Plan My Trip

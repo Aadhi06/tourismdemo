@@ -19,7 +19,7 @@ export default async function GalleryPage({ searchParams }) {
           Island light, looked at slowly.
         </h1>
         <p className="mt-5 text-lg leading-relaxed text-muted">
-          A small collection of Sri Lankan places used through this preview. Filter by subject, then open a photograph to read its caption.
+          Sigiriya, Kandy, the hills, Yala, and the south coast. Filter by subject, then open a photograph to read its caption.
         </p>
       </div>
       <div className="mt-10">

@@ -20,7 +20,7 @@ export default function DestinationsPage() {
           Five places, and the journeys that meet them.
         </h1>
         <p className="mt-5 text-lg leading-relaxed text-muted">
-          A short introduction to the landscapes used in this preview. Open a place to see what a visit can hold, and which sample tours pass through it.
+          Open a place to see what a visit can hold, and which journeys pass through it.
         </p>
       </div>
       <ul className="mt-12 grid gap-8 md:grid-cols-2">

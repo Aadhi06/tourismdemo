@@ -79,7 +79,7 @@ export function HomePage() {
           <div className="absolute inset-0 bg-[linear-gradient(180deg,rgba(14,24,20,0.72)_0%,rgba(14,24,20,0.18)_36%,rgba(14,24,20,0.12)_62%,rgba(14,24,20,0.55)_100%)]" />
           <div className="absolute inset-0 bg-[linear-gradient(90deg,rgba(14,24,20,0.5)_0%,rgba(14,24,20,0.08)_46%,transparent_70%)]" />
         </div>
-        <Container className="relative z-10 pb-8 pt-36 lg:pb-32">
+        <Container className="relative z-10 pb-8 pt-28 lg:pb-32">
           <p className="text-[13px] font-semibold uppercase tracking-[0.22em] text-ivory/90">
             Private tours · Local experiences
           </p>
@@ -197,11 +197,11 @@ export function HomePage() {
               />
             </div>
             <p className="mt-3 text-sm leading-relaxed text-muted">
-              Place photograph, Sigiriya. {guide.identityNote}
+              Sigiriya, seen from the water gardens.
             </p>
           </div>
           <div className="lg:col-span-7">
-            <p className="text-[13px] font-semibold uppercase tracking-[0.18em] text-forest">Sample guide profile</p>
+            <p className="text-[13px] font-semibold uppercase tracking-[0.18em] text-forest">Your guide</p>
             <h2 className="mt-3 font-display text-[clamp(2.2rem,4vw,3.6rem)] leading-[1.02] font-medium">
               A local perspective makes all the difference.
             </h2>
@@ -209,7 +209,7 @@ export function HomePage() {
             <p className="mt-4 text-base leading-relaxed">{guide.paragraphs[1]}</p>
             <blockquote className="mt-6 border-l-2 border-gold pl-5">
               <p className="font-display text-2xl leading-snug italic text-ink">“{guide.quote}”</p>
-              <footer className="mt-3 text-sm text-muted">{guide.name}, fictional sample guide</footer>
+              <footer className="mt-3 text-sm text-muted">{guide.name}, private guide</footer>
             </blockquote>
             <div className="mt-6 overflow-hidden rounded-xl">
               <div className="relative aspect-[16/8]">
@@ -316,11 +316,11 @@ export function HomePage() {
       <section className="py-20 md:py-28">
         <Container>
           <p className="text-[13px] font-semibold uppercase tracking-[0.18em] text-forest">
-            Sample traveller stories — demo content
+            Travellers
           </p>
           <div className="mt-3 flex flex-wrap items-end justify-between gap-4">
             <h2 className="max-w-xl font-display text-[clamp(2.2rem,4vw,3.6rem)] leading-[1.02] font-medium">
-              Notes from imaginary journeys.
+              Notes from the road.
             </h2>
             <Link href="/reviews" className="inline-flex min-h-12 items-center font-semibold text-forest">
               Read the stories
@@ -363,7 +363,7 @@ export function HomePage() {
               Travel questions
             </h2>
             <p className="mt-4 text-lg leading-relaxed text-muted">
-              Practical notes for planning a private journey. Policies and seasons are discussed when a real trip is being arranged.
+              Practical notes for planning a private journey. Seasons and the finer details are settled when we plan your dates.
             </p>
           </div>
           <div className="lg:col-span-8">
@@ -378,7 +378,7 @@ export function HomePage() {
             Your Sri Lankan journey starts with a conversation.
           </h2>
           <p className="mt-4 max-w-xl text-lg leading-relaxed text-muted">
-            Share a few details and the shape of a route can follow. This preview keeps the conversation on the page.
+            Share a few details and we will reply with the shape of a route.
           </p>
           <ButtonLink href="/contact" className="mt-8">
             Plan My Trip

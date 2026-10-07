@@ -6,7 +6,7 @@ import { Menu, X } from "lucide-react";
 import { useEffect, useId, useRef, useState } from "react";
 import { cx } from "@/lib/utils";
 
-export function Header({ brand, previewLabel, links }) {
+export function Header({ brand, links }) {
   const pathname = usePathname();
   const overlay = pathname === "/";
   const [scrolled, setScrolled] = useState(false);
@@ -66,14 +66,6 @@ export function Header({ brand, previewLabel, links }) {
         solid ? "border-b border-sand bg-white text-ink" : "bg-transparent text-ivory",
       )}
     >
-      <p
-        className={cx(
-          "px-5 py-1.5 text-center text-[13px] tracking-[0.08em]",
-          solid ? "text-muted" : "text-ivory/85",
-        )}
-      >
-        {previewLabel}
-      </p>
       <div className="mx-auto flex h-[4.5rem] w-full max-w-[1280px] items-center justify-between gap-4 px-5 md:px-10 lg:px-16">
         <Link href="/" className="font-display text-[1.65rem] leading-none tracking-[-0.03em] sm:text-[1.85rem]">
           {brand}
