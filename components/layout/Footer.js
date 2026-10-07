@@ -67,7 +67,10 @@ export function Footer({ settings, tours, channels }) {
       </Container>
       <Container className="flex flex-col gap-3 border-t border-white/15 pt-6 pb-24 text-sm text-ivory/70 sm:flex-row sm:items-center sm:justify-between lg:pr-24 lg:pb-6">
         <p>Private journeys through Sri Lanka, planned with a local guide.</p>
-        <p>© {new Date().getFullYear()} {settings.brand}</p>
+        <div className="flex flex-col gap-1 sm:items-end">
+          <p>© {new Date().getFullYear()} {settings.brand}</p>
+          <p>Designed &amp; Developed By Avenque (Pvt) Ltd</p>
+        </div>
       </Container>
     </footer>
   );
