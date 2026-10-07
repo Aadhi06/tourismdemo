@@ -5,6 +5,7 @@ import { MainOffset } from "@/components/layout/MainOffset";
 import { WhatsAppFloat } from "@/components/layout/WhatsAppFloat";
 import { buildContactChannels } from "@/lib/contacts";
 import { getNavigation, getSiteSettings, getTours } from "@/lib/data";
+import { getSiteUrl, shareImage } from "@/lib/site";
 import "./globals.css";
 
 const display = Cormorant_Garamond({
@@ -22,7 +23,9 @@ const sans = Manrope({
   display: "swap",
 });
 
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "http://localhost:3000";
+const siteUrl = getSiteUrl();
+const description =
+  "Private journeys through Sri Lanka with a local guide. Culture, hill country, wildlife, and the south coast, planned around you.";
 
 export const metadata = {
   metadataBase: new URL(siteUrl),
@@ -30,19 +33,21 @@ export const metadata = {
     default: "Ceylon Journeys — Private tours of Sri Lanka",
     template: "%s · Ceylon Journeys",
   },
-  description:
-    "Private journeys through Sri Lanka with a local guide. Culture, hill country, wildlife, and the south coast, planned around you.",
-  robots: { index: false, follow: false },
+  description,
+  robots: { index: true, follow: true },
   openGraph: {
     siteName: "Ceylon Journeys",
     type: "website",
-    locale: "en",
-    images: [
-      {
-        url: "/images/sigiriya-hero.jpg",
-        alt: "Sigiriya rock above the forest in Sri Lanka",
-      },
-    ],
+    locale: "en_LK",
+    title: "Ceylon Journeys — Private tours of Sri Lanka",
+    description,
+    images: [shareImage],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Ceylon Journeys — Private tours of Sri Lanka",
+    description,
+    images: [shareImage.url],
   },
 };
 
@@ -55,6 +60,20 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en" className={`${display.variable} ${sans.variable}`}>
       <body className="bg-white font-sans text-base leading-relaxed text-ink antialiased">
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "TravelAgency",
+              name: "Ceylon Journeys",
+              url: siteUrl,
+              image: `${siteUrl}${shareImage.url}`,
+              description,
+              areaServed: { "@type": "Country", name: "Sri Lanka" },
+            }),
+          }}
+        />
         <a className="skip-link" href="#content">
           Skip to content
         </a>

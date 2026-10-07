@@ -5,6 +5,7 @@ import { getReviews } from "@/lib/data";
 export const metadata = {
   title: "Reviews",
   description: "Notes from travellers who took a private journey through Sri Lanka with Ceylon Journeys.",
+  alternates: { canonical: "/reviews" },
 };
 
 export default function ReviewsPage() {

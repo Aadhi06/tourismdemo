@@ -8,6 +8,7 @@ import { getEnquiryContext, getGuide, getSiteSettings } from "@/lib/data";
 export const metadata = {
   title: "Contact",
   description: "Plan a private journey in Sri Lanka with Kasun Perera. Share your dates, your pace, and what you hope to see.",
+  alternates: { canonical: "/contact" },
 };
 
 export default async function ContactPage({ searchParams }) {

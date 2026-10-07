@@ -5,6 +5,7 @@ import { getGallery, getGalleryCategories } from "@/lib/data";
 export const metadata = {
   title: "Gallery",
   description: "Photographs of Sigiriya, Kandy, Ella, Yala, Galle, and the southern coast of Sri Lanka.",
+  alternates: { canonical: "/gallery" },
 };
 
 export default async function GalleryPage({ searchParams }) {

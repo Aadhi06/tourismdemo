@@ -8,6 +8,7 @@ import { ButtonLink } from "@/components/shared/Links";
 import { SiteImage } from "@/components/shared/SiteImage";
 import { TourCard } from "@/components/shared/TourCard";
 import { getRelatedTours, getSiteSettings, getTourBySlug, getTours } from "@/lib/data";
+import { shareImage } from "@/lib/site";
 
 export function generateStaticParams() {
   return getTours().map((tour) => ({ slug: tour.slug }));
@@ -20,10 +21,12 @@ export async function generateMetadata({ params }) {
   return {
     title: tour.title,
     description: tour.summary,
+    alternates: { canonical: `/tours/${tour.slug}` },
     openGraph: {
       title: `${tour.title} · Ceylon Journeys`,
       description: tour.summary,
-      images: tour.image ? [{ url: tour.image.src, alt: tour.image.alt }] : undefined,
+      url: `/tours/${tour.slug}`,
+      images: [shareImage],
     },
   };
 }

@@ -7,6 +7,7 @@ export const metadata = {
   title: "Destinations",
   description:
     "Sigiriya, Kandy, Ella, Yala, and the southern coast — five places that shape private journeys in Sri Lanka.",
+  alternates: { canonical: "/destinations" },
 };
 
 export default function DestinationsPage() {

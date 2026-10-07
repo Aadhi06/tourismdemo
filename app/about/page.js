@@ -8,6 +8,7 @@ export const metadata = {
   title: "About",
   description:
     "Meet Kasun Perera, the private guide behind Ceylon Journeys, and the way Sri Lankan journeys are shaped.",
+  alternates: { canonical: "/about" },
 };
 
 export default function AboutPage() {

@@ -8,6 +8,7 @@ export const metadata = {
   title: "Tours",
   description:
     "Private journeys through Sri Lanka: culture, hill country, wildlife, the south coast, and Colombo.",
+  alternates: { canonical: "/tours" },
 };
 
 export default async function ToursPage({ searchParams }) {

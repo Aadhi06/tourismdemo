@@ -5,6 +5,7 @@ import { ButtonLink } from "@/components/shared/Links";
 import { SiteImage } from "@/components/shared/SiteImage";
 import { TourCard } from "@/components/shared/TourCard";
 import { getDestinationBySlug, getDestinations } from "@/lib/data";
+import { shareImage } from "@/lib/site";
 
 export function generateStaticParams() {
   return getDestinations().map((destination) => ({ slug: destination.slug }));
@@ -17,10 +18,12 @@ export async function generateMetadata({ params }) {
   return {
     title: destination.name,
     description: destination.summary,
+    alternates: { canonical: `/destinations/${destination.slug}` },
     openGraph: {
       title: `${destination.name} · Ceylon Journeys`,
       description: destination.summary,
-      images: destination.image ? [{ url: destination.image.src, alt: destination.image.alt }] : undefined,
+      url: `/destinations/${destination.slug}`,
+      images: [shareImage],
     },
   };
 }
