@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
+import { HeroLocationCaption, HeroLocations } from "@/components/home/HeroLocations";
 import { MomentGrid } from "@/components/home/MomentGrid";
 import { Accordion } from "@/components/shared/Accordion";
 import { Container } from "@/components/shared/Container";
@@ -69,15 +70,14 @@ export function HomePage() {
   const gallery = getGallery();
   const byId = Object.fromEntries(gallery.map((item) => [item.id, item]));
   const moments = momentIds.map((id) => byId[id]).filter(Boolean);
-  const hero = byId["g-sigiriya-plains"]?.image;
 
   return (
     <>
       <section className="relative flex flex-col justify-end bg-forest text-ivory lg:min-h-[82svh]">
         <div className="absolute inset-0">
-          <SiteImage image={hero} priority sizes="100vw" />
-          <div className="absolute inset-0 bg-[linear-gradient(180deg,rgba(14,24,20,0.72)_0%,rgba(14,24,20,0.18)_36%,rgba(14,24,20,0.12)_62%,rgba(14,24,20,0.55)_100%)]" />
-          <div className="absolute inset-0 bg-[linear-gradient(90deg,rgba(14,24,20,0.5)_0%,rgba(14,24,20,0.08)_46%,transparent_70%)]" />
+          <HeroLocations />
+          <div className="pointer-events-none absolute inset-0 bg-[linear-gradient(180deg,rgba(14,24,20,0.62)_0%,rgba(14,24,20,0.05)_30%,rgba(14,24,20,0)_55%,rgba(14,24,20,0.42)_100%)]" />
+          <div className="pointer-events-none absolute inset-0 bg-[linear-gradient(90deg,rgba(14,24,20,0.48)_0%,rgba(14,24,20,0.08)_36%,transparent_62%)]" />
         </div>
         <Container className="relative z-10 pb-8 pt-28 lg:pb-32">
           <p className="text-[13px] font-semibold uppercase tracking-[0.22em] text-ivory/90">
@@ -97,7 +97,7 @@ export function HomePage() {
               Meet Your Guide
             </ButtonLink>
           </div>
-          <p className="mt-8 text-sm text-ivory/80">Sigiriya, Cultural Triangle</p>
+          <HeroLocationCaption />
         </Container>
         <div className="relative z-10 px-5 pb-5 md:px-10 lg:absolute lg:inset-x-0 lg:bottom-0 lg:translate-y-1/2 lg:px-0 lg:pb-0">
           <Container>
